@@ -18,7 +18,7 @@ eureka:
     register-with-eureka: false #自己不注册进服务列表中，因为这是个eureka注册中心
     fetch-registry: false #不通过eureka获取注册信息
     service-url:
-      defaultZone: htto://eureka7001.com:7001/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/
 ---
 server:
   port: 7001  #注册中心占用7001端口，冒号后门必须有空格
